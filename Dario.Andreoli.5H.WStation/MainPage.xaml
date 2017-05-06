@@ -1,0 +1,30 @@
+﻿<Page
+    x:Class="Dario.Andreoli._5H.WStation.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Dario.Andreoli._5H.WStation"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="285.249" Width="601.81">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" VerticalAlignment="Top" Height="275" Margin="0,0,-0.333,0">
+        <TextBox x:Name="txtCitta" HorizontalAlignment="Left" Margin="23,25,0,0" TextWrapping="Wrap" Text="Rimini" VerticalAlignment="Top" Width="235"/>
+        <Button x:Name="btnSend" Content="Send" HorizontalAlignment="Left" Margin="23,70,0,0" VerticalAlignment="Top" Click="btnSend_Click"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="224,92,0,0" TextWrapping="Wrap" Text="Descrizione" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtDescrizione" HorizontalAlignment="Left" Margin="305,91,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Margin="238,129,0,0" TextWrapping="Wrap" Text="Altitudine" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtAltitudine" HorizontalAlignment="Left" Margin="305,128,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" Margin="221,165,0,0" TextWrapping="Wrap" Text="Longitudine" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtLongitudine" HorizontalAlignment="Left" Margin="305,165,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" Margin="238,203,0,0" TextWrapping="Wrap" Text="Latitudine" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtLatitudine" HorizontalAlignment="Left" Margin="305,202,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock_Copy3" HorizontalAlignment="Left" Margin="392,92,0,0" TextWrapping="Wrap" Text="Temperatura" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtTemperatura" HorizontalAlignment="Left" Margin="483,91,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock_Copy4" HorizontalAlignment="Left" Margin="423,133,0,0" TextWrapping="Wrap" Text="Umidita" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtUmidita" HorizontalAlignment="Left" Margin="483,128,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock_Copy5" HorizontalAlignment="Left" Margin="436,165,0,0" TextWrapping="Wrap" Text="Vento" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtVento" HorizontalAlignment="Left" Margin="483,165,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="32"/>
+        <Image x:Name="img" HorizontalAlignment="Left" Height="100" Margin="447,203,0,0" VerticalAlignment="Top" Width="100"/>
+
+    </Grid>
+</Page>
